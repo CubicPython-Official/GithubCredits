@@ -1,11 +1,17 @@
 read -p "Whats ur name ?:" name
 echo "Hello, $name nice to meet you!"
-read -p "Whats ur github user:" user
-read -p "Whats ur pass?:" pass
-read -p "Ok is this right? "$user?" if yes then click enter if not type it again:" github2
-echo "We're working on $user pls wait.."
-read -p "Done! Now how much credits u want?:" credits
-echo "great, so u want $credits credits? ok wait..."
-read -p "Pls wait... click any key to continue" anykey
-echo "Great! Ur account($user) has now $credits credits! Thanks for using this software by Ermin"
+sleep 2
+read -p "enter your github user:"
+echo "looking for '$user'.."
+sleep 7
+echo "'$user' Found!.."
+sleep 2
+read -p "Enter amount of credits for '$user':" credits
+echo ""$credits' Selected.."
+sleep 2
+echo "Looking for lost credits..."
+sleep 2
+echo "Found credits... This may take awhile..."
+sleep 16
+echo "Successfully Gave $user $credits credits.."
 
