@@ -6,7 +6,7 @@ This will not give you credits. it is fake and for entertainment only. (also Git
 
 ## INSTALLATION (termux)
 ```
-pkg update && pkg upgrade pkg install git && git clone https://github.com/CubicPython-Official/GithubCredits.git && cd GithubCredits && chmod +x GithubCredits.sh
+pkg update && pkg upgrade && pkg install git && git clone https://github.com/CubicPython-Official/GithubCredits.git && cd GithubCredits && chmod +x GithubCredits.sh
  ```
 ## INSTALLATION (kali)
 ```
