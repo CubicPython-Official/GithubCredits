@@ -12,6 +12,6 @@ chmod +x GithubCredits.sh
 bash GithubCredits.sh
 
 ------------------------------------
-This is a very simple and easy shell script/bash script. I am a newbie im programming.
+This is a very simple and easy shell script/bash script. I am a newbie in programming.
 
 More Update Soon...
